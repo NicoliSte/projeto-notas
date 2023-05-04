@@ -1,42 +1,38 @@
-Notas dos Alunos
-Este projeto é um simples sistema de notas dos alunos, desenvolvido em React. Ele permite a visualização das notas dos alunos em uma lista paginada e ordenada alfabeticamente. Além disso, a cor do nome é definida de acordo com a nota do aluno.
+# Notas dos alunos
 
-Como compilar o projeto
-Para compilar e executar o projeto, siga os seguintes passos:
+Este projeto é um exemplo de como utilizar paginação em uma lista de dados utilizando React.
 
-Certifique-se de ter o Node.js instalado em sua máquina. Caso não tenha, faça o download e a instalação através do site oficial do Node.js (https://nodejs.org/en/).
+## Como compilar e rodar o projeto
 
-Clone o repositório em sua máquina:
+1. Certifique-se de ter o Node.js instalado na sua máquina.
+2. Clone este repositório na sua máquina local.
+3. Abra o terminal na pasta raiz do projeto e execute o comando `npm install` para instalar as dependências do projeto.
+4. Após a instalação das dependências, execute o comando `npm start` para rodar o projeto no modo de desenvolvimento.
+5. Abra o navegador e acesse o endereço `http://localhost:3000` para visualizar o projeto em execução.
 
-git clone https://github.com/seu-usuario/notas-alunos.git
+## Funcionalidades
 
-Acesse a pasta do projeto:
+O projeto consiste em uma lista de notas de alunos, ordenada pelo nome em ordem alfabética. A lista é dividida em páginas de 3 itens cada, e é possível navegar entre as páginas utilizando a paginação presente no fim da lista.
 
-cd notas-alunos
+Cada item da lista apresenta o nome do aluno e sua respectiva nota. Os nomes são exibidos em verde caso a nota seja maior ou igual a 5 e em vermelho caso a nota seja menor que 5.
 
-Instale as dependências do projeto:
+## Estrutura do projeto
 
-npm install
-
-Execute o projeto:
-
-npm start
-
-Acesse o projeto em seu navegador através do endereço http://localhost:3000/.
-
-Funcionalidades
-O projeto possui as seguintes funcionalidades:
-
-Exibir as notas dos alunos em uma lista paginada e ordenada alfabeticamente.
-Definir a cor do nome de cada aluno de acordo com a nota.
-Permitir a navegação entre as páginas da lista de notas.
-Exibir a quantidade de páginas disponíveis.
-Estrutura do projeto
 O projeto é composto pelos seguintes arquivos:
 
-App.js: arquivo principal do projeto, que renderiza a aplicação e define o estado da página atual.
-Notas.js: componente que exibe a lista paginada de notas dos alunos.
-Paginacao.js: componente que exibe a paginação da lista de notas.
-data.js: arquivo que contém os dados dos alunos.
-Desenvolvedor
+- `App.js`: componente principal do projeto, que define a página atual e as funções de navegação.
+- `Notas.js`: componente que renderiza a lista de notas e a paginação.
+- `Paginacao.js`: componente que renderiza os botões de navegação e a numeração das páginas.
+- `data.js`: arquivo contendo os dados dos alunos e o número de itens por página.
+
+## Tecnologias utilizadas
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+
+## Autor 
+
 Nicoli Stefani
+
