@@ -1,0 +1,42 @@
+Notas dos Alunos
+Este projeto é um simples sistema de notas dos alunos, desenvolvido em React. Ele permite a visualização das notas dos alunos em uma lista paginada e ordenada alfabeticamente. Além disso, a cor do nome é definida de acordo com a nota do aluno.
+
+Como compilar o projeto
+Para compilar e executar o projeto, siga os seguintes passos:
+
+Certifique-se de ter o Node.js instalado em sua máquina. Caso não tenha, faça o download e a instalação através do site oficial do Node.js (https://nodejs.org/en/).
+
+Clone o repositório em sua máquina:
+
+git clone https://github.com/seu-usuario/notas-alunos.git
+
+Acesse a pasta do projeto:
+
+cd notas-alunos
+
+Instale as dependências do projeto:
+
+npm install
+
+Execute o projeto:
+
+npm start
+
+Acesse o projeto em seu navegador através do endereço http://localhost:3000/.
+
+Funcionalidades
+O projeto possui as seguintes funcionalidades:
+
+Exibir as notas dos alunos em uma lista paginada e ordenada alfabeticamente.
+Definir a cor do nome de cada aluno de acordo com a nota.
+Permitir a navegação entre as páginas da lista de notas.
+Exibir a quantidade de páginas disponíveis.
+Estrutura do projeto
+O projeto é composto pelos seguintes arquivos:
+
+App.js: arquivo principal do projeto, que renderiza a aplicação e define o estado da página atual.
+Notas.js: componente que exibe a lista paginada de notas dos alunos.
+Paginacao.js: componente que exibe a paginação da lista de notas.
+data.js: arquivo que contém os dados dos alunos.
+Desenvolvedor
+Nicoli Stefani
