@@ -28,7 +28,7 @@ function Notas({ data, page, handlePreviousPage, handleNextPage, setPage }) {
                             key={nome}
                             className="item-nota"
                             // Define a cor do nome de acordo com a nota
-                            style={{ color: nota <= 5 ? "red" : "green" }}
+                            style={{ color: nota < 50 ? "red" : "green" }}
                         >
                             <span className="nome">{nome}</span>
                             <span className="nota">{nota}</span>
