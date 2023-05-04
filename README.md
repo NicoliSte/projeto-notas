@@ -32,7 +32,16 @@ O projeto é composto pelos seguintes arquivos:
 - HTML5
 - CSS3
 
+## Resultado
+
+<div align="center">
+img src="https://user-images.githubusercontent.com/20405745/236128352-817f9c5c-c7e2-4386-8d7c-9a592078e8de.png" width="600px" /
+</div>
+
+![Sem título](https://user-images.githubusercontent.com/20405745/236128352-817f9c5c-c7e2-4386-8d7c-9a592078e8de.png)
+
 ## Autor 
 
 Nicoli Stefani
+
 
